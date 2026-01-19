@@ -5,11 +5,10 @@ class Solution:
 
         count = 0
         l = len(capacity)
-        i = 0
-        while s > 0 and i < l:
+        
+        while s > 0 and count < l:
+            s -= capacity[count]
             count += 1
-            s -= capacity[i]
-            i += 1
         return count
             
         
