@@ -1,23 +1,7 @@
 class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
-        # attempt 2: length of the array from the index it started to decrease till the end? - didn't work for input [2,2,-1,3,-2,2,1,1,1,0,-1]
-        # attmept 3: while loop to keep on adding to the left most element till it's greater than the prev
-        # attempt 4:
-        #simulating for [2,2,-1,3,-2,2,1,1,1,0,-1]
-
-        # and I have only 8 counts not 9 
-        # I find the pair of all the sums then find the minimum of those and sum those up till the array is sorted
-        # so I have the following 8 steps 
-        # 1.  2, 2, -1,3, -2,2, 1, 1, -1
-        # 2.  2, 2, -1,3, 0,1, 1, -1
-        # 3. 2, 2, -1,3, 0,1, 0
-        # 4. 2, 1, 3, 0, 1, 0
-        # 5. 2, 1, 3, 1, 0
-        # 6. 2, 1, 3, 1
-        # 7. 3, 3, 1
-        # 8. 3, 4
-
-        # attempt 5: mistake simulating in the above forgot a number
+        
+        # attempt 5: simulating - 2,2,-1,3,-2,2,1,1,1,0,-1
         #1. 2,2,-1,3,-2,2,1,1,1,-1
         #2. 2,2,-1,3,0,1,1,1,-1
         #3. 2,2,-1,3,0,1,1,0
