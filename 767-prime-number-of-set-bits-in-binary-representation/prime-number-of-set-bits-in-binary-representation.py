@@ -16,7 +16,6 @@ class Solution:
         for i in range(left, right + 1):
             one = bin(i).count("1")
             if isprime(one):
-                print(i)
                 ans += 1
         
         return ans
