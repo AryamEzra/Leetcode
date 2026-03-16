@@ -36,7 +36,7 @@ class Solution:
                     d += 1
                     
 
-        print(heap)
+        # print(heap)
         while len(heap) > 3:
             heapq.heappop(heap)
         
