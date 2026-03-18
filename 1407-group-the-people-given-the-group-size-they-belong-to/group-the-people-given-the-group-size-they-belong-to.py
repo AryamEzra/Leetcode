@@ -14,7 +14,7 @@ class Solution:
             else:
                 for i in range(0,len(v)-k+1,k):
                     cur = v[i:i+k]
-                    print(cur)
+                    # print(cur)
                     ans.append(cur)
             
         return ans
